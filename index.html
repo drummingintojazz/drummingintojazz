@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Drumming Into Jazz</title>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <link rel="icon" type="image/png" href="img/drumming_into_jazz_favicon.png">
 </head>
@@ -13,10 +13,10 @@
   <header>
     <img class="banner" src="img/drumming_into_jazz_logo.svg" alt="Drumming Into Jazz Logo">
   </header>
-  <section>
-    <h1 data-aos="fade-up">Drumming Into Jazz is designed to take a drummer with no Jazz experience and equip them with all of the fundamentals for playing in Jazz Band.</h1>
+  <section data-aos="fade-up" data-aos-duration="2000">
+    <h1>Drumming Into Jazz is designed to take a drummer with no Jazz experience and equip them with all of the fundamentals for playing in Jazz Band.</h1>
     <a href="https://www.udemy.com/course/drumming-into-jazz/" target="_blank"><img class="image_responsive" src="img/drumming_into_jazz.jpg" alt="Drumming Into Jazz Cover Image"></a>
-    <div id="Requirements" data-aos="fade-up">
+    <div id="Requirements">
       <h3>Requirements</h3>
       <ul>
         <li>Drum set</li>
@@ -26,7 +26,7 @@
         <li>Headphones to play along with the backing tracks</li>
       </ul>
     </div>
-    <div id="Description" data-aos="fade-up">
+    <div id="Description">
       <h3>Description</h3>
       <ul>
         <li>Practice Jazz band audition</li>
@@ -38,13 +38,13 @@
       </ul>
     </div>
   </section>
-  <section id="Sample_materials">
+  <section id="Sample_materials" data-aos="fade-up" data-aos-duration="2000">
     <h2>Sample Audition Materials</h2>
     <a href="pdf/drumming_into_jazz_audition_materials.pdf" target="_blank"><img class="image_responsive" src="img/sample_audition_materials.jpg" alt="Download sample audition material packet"></a>
     <h4>Attention Band Directors!!!</h4>
     <p>This FREE sample packet is intended for band directors to audition drummers for their Jazz Band. If you intend to use these materials in your own practice or with students, please purchase the full class.</p>
   </section>
-  <section id="Sample_audio">
+  <section id="Sample_audio" data-aos="fade-up" data-aos-duration="2000">
     <h2>Sample Play-Along Audio</h2>
     <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/958070161&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
     <p>These FREE play-along tracks correspond with the sample audition materials packet. If you intend to use these materials in your own practice or with students, please purchase the full class.</p>
@@ -53,5 +53,8 @@
     <p>Contact: <a href="mailto:email@drummingintojazz.com" target="_blank">email<span>@</span>drummingintojazz.com</a></p>
   </footer>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

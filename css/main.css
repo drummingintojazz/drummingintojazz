@@ -14,6 +14,10 @@ body > *{
   align-items: center;
 }
 
+script{
+  display: none;
+}
+
 header{
   height: 100vh;
   justify-content: center;
@@ -23,15 +27,16 @@ section{
   min-height: 80vh;
 }
 
-section{
-  border-top: 10px solid black;
-}
-
-section:last-of-type{
+header, section{
   border-bottom: 10px solid black;
 }
 
+section:last-of-type{
+  border: none;
+}
+
 footer{
+  border-top: 10px solid black;
   text-align: center;
 }
 
